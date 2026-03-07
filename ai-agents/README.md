@@ -9,11 +9,13 @@ This category contains Claude skills for multi-agent orchestration, autonomous t
 ### brainstorming
 
 **File:** [brainstorming/SKILL.md](./brainstorming/SKILL.md)
-**Lines:** 96
+**Lines:** 191
 
-A structured ideation skill that guides Claude through exploring user intent, requirements, and design before any implementation begins. It prevents premature coding or content creation by ensuring the problem is fully understood first.
+A universal brainstorming and idea development skill. Guides Claude through a 5-step flow (understand context, ask clarifying questions, propose 2-3 approaches, present plan in sections, hand off to action) before any idea is acted on. Fully platform-agnostic and topic-agnostic -- contains no hardcoded skill names, no platform-specific tools, and no domain assumptions.
 
-Activate before building features, creating components, designing systems, or modifying existing behavior. This skill should typically run before any other implementation skill.
+Includes a Domain Adaptation Guide covering farming decisions, business strategy, software, writing, personal choices, and skill building. Works identically on claude.ai, Claude Code, API, terminal, or any other environment.
+
+Activate before acting on any idea, plan, or decision where the approach is not yet fully clear -- regardless of domain or platform.
 
 ---
 
