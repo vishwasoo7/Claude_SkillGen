@@ -90,14 +90,6 @@ All 7 skills are production-ready.
 
 ---
 
-## Pending Skills Not Yet Added
-
-| Skill | Reason |
-|-------|--------|
-| skill-seekers | Only 23 lines. Does not provide enough instruction depth for reliable use. |
-
----
-
 ## How to Install
 
 Copy any skill folder to `/mnt/skills/user/` in your Claude environment.

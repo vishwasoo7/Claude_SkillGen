@@ -111,14 +111,6 @@ All 9 skills are production-ready.
 
 ---
 
-## Pending Skills Not Yet Added
-
-| Skill | Reason |
-|-------|--------|
-| sales-automator | Only 60 lines. Claims to draft cold emails, follow-ups, proposal templates, pricing pages, case studies, and sales scripts, but the instruction depth is not sufficient to handle that range reliably. Needs significant expansion before inclusion. |
-
----
-
 ## How to Install
 
 Copy any skill folder to `/mnt/skills/user/` in your Claude environment.

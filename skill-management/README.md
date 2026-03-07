@@ -34,14 +34,6 @@ Both skills are production-ready.
 
 ---
 
-## Pending Skills Not Yet Added
-
-| Skill | Reason |
-|-------|--------|
-| skill-seekers | Only 23 lines. Claims to convert documentation websites, GitHub repos, and PDFs into Claude skills, but lacks the instruction depth needed for that to work reliably. Needs significant expansion before inclusion. |
-
----
-
 ## How to Install
 
 Copy any skill folder to `/mnt/skills/user/` in your Claude environment.

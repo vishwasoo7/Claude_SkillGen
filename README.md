@@ -8,7 +8,7 @@ A curated library of Claude AI skills, organized by category and version-control
 
 Claude skills are structured prompt files (SKILL.md) that tell Claude how to behave when a particular type of task is detected. This repository collects, organizes, and maintains a growing set of skills across five functional categories.
 
-All skills in this repository have been reviewed for completeness and are considered production-ready. Skills that are incomplete or too thin for reliable use are tracked separately under the Pending section below.
+All skills in this repository have been reviewed for completeness and are considered production-ready.
 
 ---
 
@@ -109,27 +109,3 @@ See [startup-business/README.md](./startup-business/README.md)
 | **Total** | **25** |
 
 ---
-
-## Pending Skills
-
-The following skills exist but have not been added to this repository. They are considered incomplete and need further development before they meet the quality bar for inclusion.
-
-| Skill | Reason Excluded |
-|-------|-----------------|
-| skill-seekers | Only 23 lines. Lacks sufficient instruction depth for reliable activation. |
-| sales-automator | Only 60 lines. Too thin to handle the range of sales tasks it claims to cover. |
-
----
-
-## How to Install a Skill
-
-1. Browse to the category folder containing the skill you want.
-2. Copy the skill folder (for example, `vedic-farming/`) to `/mnt/skills/user/` in your Claude environment.
-3. The skill will activate automatically based on its trigger description when a matching task is detected.
-
----
-
-## Maintainer
-
-VP, Keshod, Gujarat, India.
-Farm project: Rangpur village, Keshod Taluka, Junagadh district.

@@ -2,7 +2,7 @@
 
 This category contains Claude skills built specifically for natural and organic farming operations. All three skills have been calibrated for Saurashtra and Gujarat conditions, including local soil chemistry, available organic inputs, and regional crop calendars.
 
-These skills were developed as part of the Rangpur Natural Farm project in Keshod Taluka, Junagadh district, Gujarat, and are designed to support a Subhash Palekar Zero Budget Natural Farming approach from soil preparation through crop management.
+These skills are designed to support a Subhash Palekar Zero Budget Natural Farming approach from soil preparation through crop management, with a focus on chemical-free inputs and soil restoration.
 
 ---
 
@@ -55,7 +55,6 @@ All three skills are production-ready and have been validated for use on the VP 
 | Detail | Value |
 |--------|-------|
 | Farm name | Rangpur Natural Farm |
-| Location | Rangpur village, Keshod Taluka, Junagadh district, Gujarat |
 | Size | 1.2 acres (3 Vigha) |
 | Method | Subhash Palekar ZBNF with organic transition |
 | Phase 1 start | April to May 2026 |
