@@ -14,9 +14,9 @@ description: >
 ---
 
 # Vedic & Natural Farming Advisor
-## Zero Budget Natural Farming (ZBNF) — Saurashtra / Gujarat Edition
+## Zero Budget Natural Farming (ZBNF): Saurashtra / Gujarat Edition
 
-Built on **Subhash Palekar's ZBNF system**, adapted for Junagadh district soil and climate.
+Built on **Subhash Palekar's ZBNF system**, adapted for Saurashtra and Gujarat soil and climate.
 All dosages are **per 1 Vigha (0.4 acres)**. Multiply by your total Vigha for full-farm quantities.
 
 ---
@@ -32,7 +32,7 @@ All dosages are **per 1 Vigha (0.4 acres)**. Multiply by your total Vigha for fu
 
 ---
 
-## QUICK DECISION TABLE — What Should I Use?
+## QUICK DECISION TABLE: What Should I Use?
 
 | Situation | Preparation | Reference |
 |-----------|------------|-----------|
@@ -83,7 +83,7 @@ For your 3-Vigha farm: **multiply every quantity × 3**.
 
 ---
 
-## SEASONAL CALENDAR OVERVIEW (Junagadh / Keshod)
+## SEASONAL CALENDAR OVERVIEW (Saurashtra / Gujarat)
 
 | Season | Months | Priority Preparations |
 |--------|--------|----------------------|
@@ -95,7 +95,7 @@ For your 3-Vigha farm: **multiply every quantity × 3**.
 
 ---
 
-## REFERENCE FILES — Read These for Full Detail
+## REFERENCE FILES: Read These for Full Detail
 
 | File | When to Read |
 |------|-------------|
@@ -109,9 +109,9 @@ For your 3-Vigha farm: **multiply every quantity × 3**.
 
 ## IMPORTANT NOTES FOR YOUR FARM
 
-- **Cow source:** All desi (indigenous) cow dung and urine — not Jersey/HF cattle. Desi cow products contain more Bacillus species.
+- **Cow source:** All desi (indigenous) cow dung and urine: not Jersey/HF cattle. Desi cow products contain more Bacillus species.
 - **Water:** Use well water or collected rainwater. Avoid chlorinated tap water for Jeevamrut fermentation.
 - **Shade:** Ferment Jeevamrut in shade, never direct sun.
 - **Stirring:** Always stir Jeevamrut clockwise 7–10 times before each use.
 - **Containers:** Use clay pots or food-grade plastic. Never aluminum or iron.
-- **Saurashtra soil note:** Your loamy-clay mix retains moisture well but compacts easily — prioritize mulching and minimal tillage at all times.
+- **Saurashtra soil note:** Your loamy-clay mix retains moisture well but compacts easily: prioritize mulching and minimal tillage at all times.

@@ -11,13 +11,13 @@ description: >
   test mean", "how to fix my soil", "my pH is high", "what should I apply based on my
   test", or shares any numbers from a lab report. Also trigger when user describes crop
   symptoms that suggest a nutrient problem. All prescriptions use organic inputs only.
-  All dosages are per 1 Vigha — multiply by total Vigha count. Calibrated for
+  All dosages are per 1 Vigha: multiply by total Vigha count. Calibrated for
   Saurashtra / Junagadh / Gujarat alkaline loamy-clay soil.
 ---
 
 # Soil Test Interpreter
 ## Lab Report → Organic Amendment Prescription
-### Calibrated for Keshod, Junagadh, Gujarat
+### Calibrated for Saurashtra, Gujarat
 
 All amendment quantities are **per 1 Vigha (≈ 0.4 acres)**.
 For your 3-Vigha farm: **multiply every quantity × 3**.
@@ -26,7 +26,7 @@ For your 3-Vigha farm: **multiply every quantity × 3**.
 
 ## HOW TO USE THIS SKILL
 
-**Three entry points — all supported:**
+**Three entry points: all supported:**
 
 **A) Upload your lab report (PDF or image)**
 Upload the file directly in chat. I will extract all parameter values automatically,
@@ -34,7 +34,7 @@ classify each one, and generate a prioritized organic correction plan.
 Supported formats: PDF, JPG, PNG, scanned photo of paper report.
 
 **B) Paste your numbers**
-Type or paste raw values (e.g., "pH 8.1, OC 0.42%, N 210 kg/ha, Zn 0.31") —
+Type or paste raw values (e.g., "pH 8.1, OC 0.42%, N 210 kg/ha, Zn 0.31") -
 I classify and prescribe immediately.
 
 **C) Describe a crop symptom**
@@ -43,22 +43,22 @@ I recommend which test to get and which organic fix to start now.
 
 ---
 
-## ALL PARAMETERS — STATUS AT A GLANCE
+## ALL PARAMETERS: STATUS AT A GLANCE
 
 | Parameter | Unit | Low ⚠️ | Medium ✅ | High / Good | Problem |
 |-----------|------|--------|----------|-------------|---------|
-| **pH** | — | <6.5 | 6.5–7.5 | 7.5–8.5 (Saurashtra normal) | >8.5 🚨 |
+| **pH** |: | <6.5 | 6.5–7.5 | 7.5–8.5 (Saurashtra normal) | >8.5 🚨 |
 | **EC** | dS/m | <0.25 | 0.25–0.75 | 0.75–2.0 caution | >2.0 🚨 |
 | **Organic Carbon (OC)** | % | <0.5 🚨 | 0.5–0.75 | 0.75–1.0 | >1.0 ✅ |
-| **Available N** | kg/ha | <280 | 280–560 ✅ | >560 | — |
-| **Available P** | kg/ha | <10 | 10–25 ✅ | >25 | — |
-| **Available K** | kg/ha | <108 | 108–280 ✅ | >280 | — |
-| **Zinc (Zn)** | mg/kg | <0.6 🚨 | 0.6–1.2 ✅ | >1.2 | — |
-| **Iron (Fe)** | mg/kg | <4.5 | 4.5–9.0 ✅ | >9.0 | — |
-| **Manganese (Mn)** | mg/kg | <2.0 | 2.0–5.0 ✅ | >5.0 | — |
-| **Copper (Cu)** | mg/kg | <0.2 | 0.2–0.5 ✅ | >0.5 | — |
-| **Boron (B)** | mg/kg | <0.5 🚨 | 0.5–1.0 ✅ | >1.0 | — |
-| **Sulphur (S)** | mg/kg | <10 | 10–20 ✅ | >20 | — |
+| **Available N** | kg/ha | <280 | 280–560 ✅ | >560 |: |
+| **Available P** | kg/ha | <10 | 10–25 ✅ | >25 |: |
+| **Available K** | kg/ha | <108 | 108–280 ✅ | >280 |: |
+| **Zinc (Zn)** | mg/kg | <0.6 🚨 | 0.6–1.2 ✅ | >1.2 |: |
+| **Iron (Fe)** | mg/kg | <4.5 | 4.5–9.0 ✅ | >9.0 |: |
+| **Manganese (Mn)** | mg/kg | <2.0 | 2.0–5.0 ✅ | >5.0 |: |
+| **Copper (Cu)** | mg/kg | <0.2 | 0.2–0.5 ✅ | >0.5 |: |
+| **Boron (B)** | mg/kg | <0.5 🚨 | 0.5–1.0 ✅ | >1.0 |: |
+| **Sulphur (S)** | mg/kg | <10 | 10–20 ✅ | >20 |: |
 
 > **Unit note:** mg/kg = ppm (identical). Some labs report N in kg/ha, others as %.
 > Per-Vigha conversion: divide kg/ha values by 2.47.
@@ -68,14 +68,14 @@ I recommend which test to get and which organic fix to start now.
 
 ## PRIORITY CORRECTION ORDER
 
-**Always fix in this sequence — skipping steps wastes inputs:**
+**Always fix in this sequence: skipping steps wastes inputs:**
 
 ```
-1. pH first      — if >8.5 or <6.5, nutrients are locked regardless of quantities
-2. OC / Organic Carbon — foundation for all microbial activity and nutrient cycling
-3. Macronutrients — N, then P, then K
-4. Micronutrients — Zn first (most common in Saurashtra), then B, S, Fe
-5. EC last       — salinity managed separately, doesn't interact with nutrient fixes
+1. pH first     : if >8.5 or <6.5, nutrients are locked regardless of quantities
+2. OC / Organic Carbon: foundation for all microbial activity and nutrient cycling
+3. Macronutrients: N, then P, then K
+4. Micronutrients: Zn first (most common in Saurashtra), then B, S, Fe
+5. EC last      : salinity managed separately, doesn't interact with nutrient fixes
 ```
 
 **Why this order:** pH >8.0 locks P and Zn even when they exist in soil.
@@ -84,7 +84,7 @@ Always build the foundation before adding inputs on top.
 
 ---
 
-## QUICK AMENDMENT TABLE — Per 1 Vigha
+## QUICK AMENDMENT TABLE: Per 1 Vigha
 
 | Parameter | Status | First Organic Fix | Per Vigha Qty | Full Detail |
 |-----------|--------|------------------|---------------|-------------|
@@ -124,14 +124,14 @@ Always build the foundation before adding inputs on top.
 
 ---
 
-## SAURASHTRA BASELINE — What to Expect Before Testing
+## SAURASHTRA BASELINE: What to Expect Before Testing
 
-Most Keshod-area soils start at these typical values:
+Most Saurashtra-area soils start at these typical values:
 
 | Parameter | Typical Starting Range | Priority |
 |-----------|----------------------|----------|
-| pH | 7.8–8.3 (alkaline — normal) | Manage, don't panic |
-| OC | 0.3–0.6% (low — critical to build) | 🔴 High |
+| pH | 7.8–8.3 (alkaline: normal) | Manage, don't panic |
+| OC | 0.3–0.6% (low: critical to build) | 🔴 High |
 | N | Low to Medium | 🟡 Medium |
 | P | Low (locked by alkaline pH) | 🔴 High |
 | K | Medium to High (Saurashtra is K-rich) | 🟢 Usually fine |

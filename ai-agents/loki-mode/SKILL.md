@@ -273,7 +273,7 @@ The following features are documented in skill modules but not yet fully automat
 
 ## Agent Skill: Prompt Optimization
 
-Automatically repeats prompts 2x for Haiku agents on structured tasks (unit tests, linting, parsing, list ops) — improves accuracy 36–62% with zero latency cost. Enabled by default via `LOKI_PROMPT_REPETITION=true`. See `agent-skills/prompt-optimization/README.md`.
+Automatically repeats prompts 2x for Haiku agents on structured tasks (unit tests, linting, parsing, list ops): improves accuracy 36–62% with zero latency cost. Enabled by default via `LOKI_PROMPT_REPETITION=true`. See `agent-skills/prompt-optimization/README.md`.
 
 ## Agent Skill: Checkpoint Mode
 
