@@ -63,6 +63,7 @@ See [skill-management/README.md](./skill-management/README.md)
 |-------|-------------|
 | skill-developer | Comprehensive guide for creating Claude Code skills, trigger patterns, hooks, and debugging workflows |
 | verification-before-completion | Enforces evidence-based task completion by requiring verification before any success claim |
+| github-connect | Platform-adaptive GitHub connector covering push, sync, inspect, and update actions across all Claude environments |
 
 ---
 
@@ -103,9 +104,9 @@ See [startup-business/README.md](./startup-business/README.md)
 |----------|--------|
 | farming | 3 |
 | ai-agents | 7 |
-| skill-management | 2 |
+| skill-management | 3 |
 | engineering | 4 |
 | startup-business | 9 |
-| **Total** | **25** |
+| **Total** | **26** |
 
 ---

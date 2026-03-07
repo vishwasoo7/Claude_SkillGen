@@ -1,6 +1,6 @@
 # Skill Management Skills
 
-This category contains Claude skills for building, validating, and maintaining other Claude skills. These are meta-level tools aimed at developers and power users who want to create new skills, debug existing ones, or enforce quality standards in their Claude workflows.
+This category contains Claude skills for building, validating, and maintaining other Claude skills. These are meta-level tools aimed at developers and power users who want to create new skills, debug existing ones, enforce quality standards, and connect their Claude environment to external version control.
 
 ---
 
@@ -28,9 +28,22 @@ Activate before claiming work is done, before committing code, before creating p
 
 ---
 
+### github-connect
+
+**File:** [github-connect/SKILL.md](./github-connect/SKILL.md)
+**Lines:** 288
+
+A platform-adaptive GitHub connector skill. The user provides a Personal Access Token, a repository URL, and a declared intended action. Claude then handles setup, execution, verification, commit, and push in a structured 5-stage protocol. Supports 6 actions: push-files, push-skill, update-readme, create-folder, sync-all, and inspect.
+
+Works on claude.ai with computer use, Claude Code, Claude Desktop, and any self-hosted API environment with bash and git available.
+
+Activate when connecting to GitHub, pushing files or skills to a repo, syncing skills, updating a README in a remote repo, or inspecting repository state.
+
+---
+
 ## Status
 
-Both skills are production-ready.
+All 3 skills are production-ready.
 
 ---
 
@@ -40,5 +53,5 @@ Copy any skill folder to `/mnt/skills/user/` in your Claude environment.
 
 Example:
 ```
-cp -r skill-developer/ /mnt/skills/user/
+cp -r github-connect/ /mnt/skills/user/
 ```
