@@ -41,9 +41,31 @@ Activate when connecting to GitHub, pushing files or skills to a repo, syncing s
 
 ---
 
+### master-skill-assist
+
+**File:** [master-skill-assist/SKILL.md](./master-skill-assist/SKILL.md)
+**Lines:** 229
+
+A master orchestrator for the full skill lifecycle. Runs a structured six-phase session (environment scan, intent capture, roadmap generation, execution, verification, approval gate, final build) to create, upgrade, clone, audit, or repair any Claude skill. Adapts to whatever skills are installed and works across all platforms.
+
+Activate when creating a new skill from scratch, upgrading or overhauling an existing skill, cloning a skill to a new purpose, auditing the full skill library, or running a skill health check.
+
+---
+
+### skill-seekers
+
+**File:** [skill-seekers/SKILL.md](./skill-seekers/SKILL.md)
+**Lines:** 23
+
+Automatically converts documentation websites, GitHub repositories, and PDFs into Claude AI skills. Designed to accelerate skill creation by sourcing external knowledge and structuring it into the standard SKILL.md format.
+
+Activate when converting a GitHub repo, documentation site, or PDF into a new Claude skill.
+
+---
+
 ## Status
 
-All 3 skills are production-ready.
+All 5 skills are production-ready.
 
 ---
 

@@ -105,9 +105,20 @@ Activate when setting or revising product pricing, designing a freemium to paid 
 
 ---
 
+### sales-automator
+
+**File:** [sales-automator/SKILL.md](./sales-automator/SKILL.md)
+**Lines:** 60
+
+A sales automation skill for drafting cold email sequences, follow-up campaigns, proposal templates, case studies, and sales scripts. Focuses on personalization, value-led messaging, and conversion-oriented copywriting.
+
+Activate when writing cold outreach emails, building a follow-up cadence, creating a proposal template, drafting objection handling scripts, or preparing sales content for lead nurturing.
+
+---
+
 ## Status
 
-All 9 skills are production-ready.
+All 10 skills are production-ready.
 
 ---
 

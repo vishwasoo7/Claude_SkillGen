@@ -34,8 +34,9 @@ See [farming/README.md](./farming/README.md)
 | Skill | Description |
 |-------|-------------|
 | agstack-farming | AgStack Foundation digital agriculture advisor with ETo calculations, pest risk scoring, and Gujarat-specific crop calendars |
-| vedic-farming | Subhash Palekar ZBNF advisor covering Jeevamrut, Beejamrut, Panchgavya, lunar calendar planting, and organic pest preparations |
+| vedic-farming | Subhash Palekar ZBNF advisor covering all preparations, chemical land detox protocol, crop-specific guides (groundnut, cumin, sesame, bajra, vegetables), cow resource management, and local sourcing for Keshod area |
 | soil-test-interpreter | Reads Indian soil lab reports and generates organic amendment prescriptions per Vigha |
+| farm-journal | Structured farm observation and activity logging system with 7 entry types, soil recovery milestones tracker, and season-comparison review prompts |
 
 ---
 
@@ -64,6 +65,8 @@ See [skill-management/README.md](./skill-management/README.md)
 | skill-developer | Comprehensive guide for creating Claude Code skills, trigger patterns, hooks, and debugging workflows |
 | verification-before-completion | Enforces evidence-based task completion by requiring verification before any success claim |
 | github-connect | Platform-adaptive GitHub connector covering push, sync, inspect, and update actions across all Claude environments |
+| master-skill-assist | Master orchestrator for the full skill lifecycle: create, upgrade, clone, audit, and repair skills via a six-phase structured session |
+| skill-seekers | Converts documentation websites, GitHub repositories, and PDFs into Claude AI skills automatically |
 
 ---
 
@@ -95,6 +98,7 @@ See [startup-business/README.md](./startup-business/README.md)
 | competitive-landscape | Competitor analysis, market positioning, differentiation strategy, and Porter's Five Forces |
 | market-sizing-analysis | TAM, SAM, and SOM calculation with structured market opportunity sizing methodology |
 | pricing-strategy | Pricing, packaging, and monetization design based on customer value and growth objectives |
+| sales-automator | Cold email sequences, follow-up campaigns, proposal templates, and sales scripts for outreach and lead nurturing |
 
 ---
 
@@ -102,11 +106,11 @@ See [startup-business/README.md](./startup-business/README.md)
 
 | Category | Skills |
 |----------|--------|
-| farming | 3 |
+| farming | 4 |
 | ai-agents | 7 |
-| skill-management | 3 |
+| skill-management | 5 |
 | engineering | 4 |
-| startup-business | 9 |
-| **Total** | **26** |
+| startup-business | 10 |
+| **Total** | **30** |
 
 ---
