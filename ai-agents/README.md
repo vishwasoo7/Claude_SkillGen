@@ -1,22 +1,108 @@
-# 🤖 AI Agents Skills
+# AI Agents Skills
 
-Claude skills for multi-agent orchestration, autonomous workflows, and meta-AI behavior.
+This category contains Claude skills for multi-agent orchestration, autonomous task execution, and meta-level AI behavior. These skills expand what Claude can do when working on complex, multi-step, or multi-domain problems by enabling it to coordinate agents, manage memory, route tasks, and operate with greater autonomy.
 
-| Skill | Lines | Description |
-|-------|-------|-------------|
-| [`brainstorming`](./brainstorming/SKILL.md) | 96 | Explores user intent and design before any implementation work begins |
-| [`dispatching-parallel-agents`](./dispatching-parallel-agents/SKILL.md) | 180 | Runs 2+ independent tasks simultaneously to save time |
-| [`parallel-agents`](./parallel-agents/SKILL.md) | 177 | Multi-agent orchestration patterns for complex multi-perspective analysis |
-| [`memory-systems`](./memory-systems/SKILL.md) | 229 | Design short-term, long-term, and graph-based memory architectures |
-| [`loki-mode`](./loki-mode/SKILL.md) | 280 | Autonomous multi-agent startup builder — PRD to deployed product |
-| [`using-superpowers`](./using-superpowers/SKILL.md) | 95 | Meta-skill: ensures Claude always invokes relevant skills before responding |
-| [`skill-router`](./skill-router/SKILL.md) | 182 | Surfaces the most relevant installed skills for any given prompt |
+---
+
+## Skills in This Category
+
+### brainstorming
+
+**File:** [brainstorming/SKILL.md](./brainstorming/SKILL.md)
+**Lines:** 96
+
+A structured ideation skill that guides Claude through exploring user intent, requirements, and design before any implementation begins. It prevents premature coding or content creation by ensuring the problem is fully understood first.
+
+Activate before building features, creating components, designing systems, or modifying existing behavior. This skill should typically run before any other implementation skill.
+
+---
+
+### dispatching-parallel-agents
+
+**File:** [dispatching-parallel-agents/SKILL.md](./dispatching-parallel-agents/SKILL.md)
+**Lines:** 180
+
+Enables Claude to split a task into two or more independent subtasks and work on them simultaneously rather than sequentially. This significantly reduces time-to-completion when the subtasks have no shared state or dependencies.
+
+Activate when facing multiple independent failures (different test files, different subsystems, different bugs), or when a complex task can be cleanly decomposed into parallel workstreams.
+
+---
+
+### parallel-agents
+
+**File:** [parallel-agents/SKILL.md](./parallel-agents/SKILL.md)
+**Lines:** 177
+
+Provides multi-agent orchestration patterns for tasks that require different domain expertise operating in parallel. Useful when a problem benefits from multiple analytical perspectives running simultaneously.
+
+Activate when comprehensive analysis requires more than one domain perspective, or when different parts of a task demand specialized knowledge that should be applied concurrently.
+
+---
+
+### memory-systems
+
+**File:** [memory-systems/SKILL.md](./memory-systems/SKILL.md)
+**Lines:** 229
+**Source:** Agent Skills for Context Engineering (GitHub)
+
+An architecture guide for designing short-term, long-term, and graph-based memory systems for AI agents and applications. Covers when to use each memory type, how to structure data, and how to manage context window constraints.
+
+Activate when designing AI systems that need to persist information across sessions, manage conversation history, build knowledge graphs, or optimize context usage.
+
+---
+
+### loki-mode
+
+**File:** [loki-mode/SKILL.md](./loki-mode/SKILL.md)
+**Lines:** 280
+
+A fully autonomous multi-agent system that takes a Product Requirements Document (PRD) and works through to a deployed product with minimal human intervention. Supports multiple AI providers including Claude, Codex, Gemini, Cline, and Aider.
+
+Activate by saying "Loki Mode" in your prompt. Requires the `--dangerously-skip-permissions` flag in Claude Code. This skill makes decisions autonomously and does not stop to ask clarifying questions.
+
+---
+
+### using-superpowers
+
+**File:** [using-superpowers/SKILL.md](./using-superpowers/SKILL.md)
+**Lines:** 95
+
+A meta-skill that establishes the rule that Claude must always check for and invoke relevant skills before responding to any prompt, including clarifying questions. It prevents Claude from answering from general knowledge when a more specialized skill is available.
+
+This skill should be active at all times as a baseline behavior rule. It ensures the skill ecosystem is actually used rather than bypassed.
+
+---
+
+### skill-router
+
+**File:** [skill-router/SKILL.md](./skill-router/SKILL.md)
+**Lines:** 182
+
+A smart routing skill that identifies and surfaces the most relevant installed skills for any given prompt. Works across all Claude environments including claude.ai, Claude Code, and Antigravity. It adapts dynamically to whatever skills are currently installed.
+
+Activate when you are unsure which skill to use, want a recommendation, or need Claude to proactively suggest applicable skills before starting a task.
+
+---
 
 ## Status
-✅ All 7 skills are complete and production-ready.
 
-## Pending (Not Yet Added)
-- `skill-seekers` — Only 23 lines, needs expansion before inclusion.
+All 7 skills are production-ready.
+
+---
+
+## Pending Skills Not Yet Added
+
+| Skill | Reason |
+|-------|--------|
+| skill-seekers | Only 23 lines. Does not provide enough instruction depth for reliable use. |
+
+---
 
 ## How to Install
+
 Copy any skill folder to `/mnt/skills/user/` in your Claude environment.
+
+Example:
+```
+cp -r brainstorming/ /mnt/skills/user/
+```
