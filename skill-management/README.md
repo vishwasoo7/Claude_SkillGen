@@ -20,11 +20,13 @@ Activate when creating a new skill from scratch, modifying an existing skill, tr
 ### verification-before-completion
 
 **File:** [verification-before-completion/SKILL.md](./verification-before-completion/SKILL.md)
-**Lines:** 139
+**Lines:** 193
 
-Enforces a strict evidence-before-assertion rule: Claude must run verification commands and confirm output before claiming any task is complete, fixed, or passing. It prevents the common failure mode of declaring success without actually testing the result.
+Universal output verification skill. Auto-triggers on every response before any claim, answer, recommendation, or result is presented. Applies to all output types across all domains: factual claims, calculations, farming prescriptions, ZBNF preparations, crop recommendations, government scheme details, business advice, code results, research summaries, skill builds, and file creation.
 
-Activate before claiming work is done, before committing code, before creating pull requests, or whenever Claude is about to report that something is working.
+Includes a 12-row Domain Verification Table mapping each output type to its required evidence, a Platform Evidence Formats table covering all Claude environments (claude.ai, Claude Code, API, chat-only), a Rationalization Prevention table, and a standardised Verification Scorecard format.
+
+Always active. No exceptions. No platform dependency. Fires on every message, not just code tasks.
 
 ---
 
