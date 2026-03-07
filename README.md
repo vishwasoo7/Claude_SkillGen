@@ -1,22 +1,48 @@
-# Claude SkillGen — VP Farm Project
+# Claude SkillGen
 
-This repository stores Claude AI skills built for the Rangpur Natural Farm project,
-Keshod Taluka, Junagadh district, Gujarat, India.
+A curated, categorized library of Claude AI skills — version-controlled and ready to deploy.
 
-## Skills Index
+---
 
-| Skill | Description |
-|-------|-------------|
-| `vedic-farming` | ZBNF / Subhash Palekar preparations, lunar calendar, Gujarat-calibrated |
-| `soil-test-interpreter` | Indian soil lab report reader → organic amendment prescriptions per Vigha |
-| `agstack-farming` | AgStack Foundation tools: ETo, pest risk, Gujarat crop calendar |
+## 📁 Categories
 
-## Usage
-Each skill lives in its own folder with a `SKILL.md` file.
-Drop the folder into `/mnt/skills/user/` in your Claude environment to activate.
+| Category | Skills | Description |
+|----------|--------|-------------|
+| [🌾 farming](./farming/) | 3 | Gujarat-calibrated natural farming, ZBNF, soil interpretation |
+| [🤖 ai-agents](./ai-agents/) | 7 | Multi-agent orchestration, autonomous workflows, meta-AI behavior |
+| [🛠️ skill-management](./skill-management/) | 2 | Building, validating, and managing Claude skills |
+| [⚙️ engineering](./engineering/) | 4 | Code quality, RAG systems, prompt engineering |
+| [📊 startup-business](./startup-business/) | 9 | Startup analysis, financial modeling, market research, strategy |
 
-## Farm Context
-- **Location:** Rangpur village, Keshod Taluka, Junagadh, Gujarat
+**Total: 25 production-ready skills**
+
+---
+
+## ⏳ Pending Skills (Incomplete — Not Yet Added)
+
+| Skill | Issue |
+|-------|-------|
+| `skill-seekers` | Only 23 lines — needs content expansion |
+| `sales-automator` | Only 60 lines — too thin for production use |
+
+---
+
+## 🚀 How to Use
+
+1. Browse a category folder
+2. Copy the skill folder to `/mnt/skills/user/` in your Claude environment
+3. The skill auto-activates based on its trigger description
+
+---
+
+## 🌾 Farm Project Context
+
+The `farming/` skills are custom-built for the **Rangpur Natural Farm**:
+- **Location:** Rangpur village, Keshod Taluka, Junagadh, Gujarat, India
 - **Size:** ~1.2 acres (3 Vigha)
-- **Phase:** Phase 1 — Natural & Organic Agriculture (April–May 2026 launch)
-- **Method:** Subhash Palekar Natural Farming (ZBNF)
+- **Method:** Subhash Palekar ZBNF + organic transition
+- **Phase 1 Launch:** April–May 2026
+
+---
+
+*Maintained by VP | Keshod, Gujarat*
