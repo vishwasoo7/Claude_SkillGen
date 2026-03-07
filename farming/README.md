@@ -35,12 +35,16 @@ Activate when asking about any ZBNF preparation, how to handle chemically damage
 ### soil-test-interpreter
 
 **File:** [soil-test-interpreter/SKILL.md](./soil-test-interpreter/SKILL.md)
-**Lines:** 140
+**Lines:** 208 (SKILL.md) + 6 reference files (1,255 lines)
 **Source:** Custom-built for VP Farm Project
 
-This skill reads Indian soil laboratory reports and converts raw test values into specific organic amendment prescriptions. All dosages are calculated per Vigha and use organic inputs only. It is calibrated for alkaline loamy-clay soils common in the Saurashtra and Junagadh region.
+This skill reads Indian soil laboratory reports and converts raw test values into specific organic amendment prescriptions. All dosages are calculated per Vigha and use organic inputs only. Calibrated for alkaline loamy-clay soils in the Saurashtra and Junagadh region.
 
-Activate when uploading a soil report PDF or image, or when asking about pH correction, OC percentage, NPK values, EC readings, micronutrient deficiencies (zinc, boron, iron, sulphur), GSFC lab results, or KVK Krishi Vigyan Kendra reports.
+Includes a Chemical Detox Context section for interpreting Year 1 soil tests on land previously under heavy synthetic inputs -- covering parameter-by-parameter interpretation adjustments, reduced-dose prescription rules, and season-by-season recovery targets. A Re-Testing Schedule section provides a 5-test minimum calendar with season-on-season improvement benchmarks and warning signals for slow recovery.
+
+Reference file 06 covers cover crop prescriptions (Dhaincha, Sunn Hemp, Cowpea, Cluster Bean, Mustard with per-Vigha seed rates and Keshod sourcing), bioremediation inputs, recovery troubleshooting, and farm journal integration for PGS documentation.
+
+Activate when uploading a soil report PDF or image, pasting raw test values, asking about pH correction, OC percentage, NPK values, EC readings, micronutrient deficiencies, GSFC or KVK lab results, or when asking how to track soil recovery over seasons.
 
 ---
 
