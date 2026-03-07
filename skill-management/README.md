@@ -31,11 +31,11 @@ Activate before claiming work is done, before committing code, before creating p
 ### github-connect
 
 **File:** [github-connect/SKILL.md](./github-connect/SKILL.md)
-**Lines:** 288
+**Lines:** 297
 
 A platform-adaptive GitHub connector skill. The user provides a Personal Access Token, a repository URL, and a declared intended action. Claude then handles setup, execution, verification, commit, and push in a structured 5-stage protocol. Supports 6 actions: push-files, push-skill, update-readme, create-folder, sync-all, and inspect.
 
-Works on claude.ai with computer use, Claude Code, Claude Desktop, and any self-hosted API environment with bash and git available.
+Works on claude.ai with computer use, Claude Code, Claude Desktop, and any self-hosted API environment with bash and git available. The token does not expire between sessions and can be reused without regenerating unless it was exposed publicly.
 
 Activate when connecting to GitHub, pushing files or skills to a repo, syncing skills, updating a README in a remote repo, or inspecting repository state.
 
