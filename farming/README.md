@@ -11,12 +11,16 @@ These skills are designed to support a Subhash Palekar Zero Budget Natural Farmi
 ### agstack-farming
 
 **File:** [agstack-farming/SKILL.md](./agstack-farming/SKILL.md)
-**Lines:** 274
-**Source:** AgStack Foundation (Linux Foundation) and OpenAgri ecosystem
+**Lines:** 300 (SKILL.md) + 10 reference files (1,348 lines)
+**Source:** AgStack Foundation (Linux Foundation) + OpenAgri ecosystem
 
-This skill turns Claude into a digital agriculture advisor using open-source tools from the AgStack Foundation. It covers evapotranspiration (ETo) calculations, pest risk assessments, Gujarat-specific crop calendars, field boundary management, supply chain traceability, and carbon credit tracking.
+Digital agriculture advisor for the Rangpur Natural Farm, Keshod, Junagadh, Gujarat. Covers field GeoID registration, ETo and irrigation management, pest risk, farm calendar logging, ZBNF input logging, PGS-India certification documentation, APMC market intelligence, supply chain traceability, carbon tracking, and full OpenAgri stack deployment.
 
-Activate when asking about crop planning, irrigation scheduling, weather data for crops, pest pressure forecasting, or deploying AgStack tools such as asset-registry, OpenAgri services, INATrace, Pancake, Palefire, TerraTrac, or field-carbon-model.
+Reference file 10 covers APMC Keshod and Junagadh market structure, crop price reference for all Phase 1 crops (Cumin, Sesame, Bajra, Cowpea, Guar, Methi) with MSP and APMC ranges, step-by-step selling workflow, Farm Calendar log formats for each sale, PGS-India certification process, PGS documentation logging from Day 1, peer group formation, and INATrace vs PGS comparison.
+
+Cross-linked to: soil-test-interpreter, vedic-farming, water-irrigation-emergency, farm-journal.
+
+Activate for: APMC prices, selling produce, PGS certification, crop planning, irrigation scheduling, weather data, pest pressure, Jeevamrut logging, demonstration farm documentation, or any AgStack/OpenAgri tool deployment.
 
 ---
 
