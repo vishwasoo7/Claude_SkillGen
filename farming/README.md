@@ -87,3 +87,20 @@ Example:
 ```
 cp -r agstack-farming/ /mnt/skills/user/
 ```
+
+---
+
+### water-irrigation-emergency
+
+**File:** [water-irrigation-emergency/SKILL.md](./water-irrigation-emergency/SKILL.md)
+**Lines:** 200 (SKILL.md) + 1 reference file (337 lines)
+**Source:** Custom-built for VP Farm Project
+
+Emergency response protocol for the single-borewell, grid-power irrigation system at Rangpur Natural Farm, Keshod. Covers all three failure modes: grid power cut, motor or pump failure, and borewell water level drop.
+
+SKILL.md contains a Three Failure Modes identification table, a four-step Immediate Action Protocol (first 60 minutes), a Decision Tree with actions at four outage duration branches, an Emergency Water Sources table with six Keshod-area options and INR costs, a Water Rationing priority guide, and a Soil Moisture Check method using the loamy-clay buffer advantage.
+
+Reference file 01 covers crop survival windows for all Kharif and Rabi crops, growth stage vulnerability, triage priority by season, water rationing calculator with survival doses, 5-day outage cost comparison, recovery actions using Jeevamrut and Panchgavya after stress, a prevention and preparedness checklist, a borewell and motor maintenance calendar, and a long-term upgrade path from no-backup to solar pump and farm pond.
+
+Activate immediately when: borewell fails, motor stops, power cut, pump not working, crops wilting, water shortage, water tanker needed, generator rental, which crops to save first, or any irrigation emergency.
+
