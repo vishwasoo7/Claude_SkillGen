@@ -108,3 +108,19 @@ Reference file 01 covers crop survival windows for all Kharif and Rabi crops, gr
 
 Activate immediately when: borewell fails, motor stops, power cut, pump not working, crops wilting, water shortage, water tanker needed, generator rental, which crops to save first, or any irrigation emergency.
 
+---
+
+### pgs-india-roadmap
+
+**File:** [pgs-india-roadmap/SKILL.md](./pgs-india-roadmap/SKILL.md)
+**Lines:** 122 (SKILL.md) + 2 reference files (832 lines)
+**Source:** Custom-built for VP Farm Project
+
+Step-by-step PGS-India (Participatory Guarantee System) certification roadmap for the Rangpur Natural Farm. Covers the full journey from April 2026 (Day 1 post Kali Jeeri harvest) to March 2027 (first PGS Scope Certificate).
+
+Reference file 01 is a month-by-month action plan across three phases: Phase A (foundation -- baseline soil test, farm description, peer group formation, KVK registration, NCOF portal setup), Phase B (Kharif 2026 logging -- opening declaration, Beejamrut and Jeevamrut log templates, weekly observation format, peer inspection, harvest documentation), and Phase C (Rabi 2026-27 through application -- evidence file compilation, group review, second inspection, NCOF portal and KVK physical submission). Includes master documentation checklist and a 6-scenario recovery table for missed steps.
+
+Reference file 02 covers the peer inspection protocol with a full fillable inspection record template, group constitution template, individual farm declaration template, KVK Junagadh address and contact, NCOF portal step-by-step guide, how to use the certificate at APMC and for government schemes, annual renewal requirements, and problem handling for synthetic input violations and application rejections.
+
+Cross-linked to: agstack-farming (Farm Calendar log formats), soil-test-interpreter, vedic-farming, farm-journal.
+
