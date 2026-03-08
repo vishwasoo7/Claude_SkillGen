@@ -1,21 +1,21 @@
 ---
 name: agstack-farming
 description: >
-  Open-source digital agriculture advisor powered by the AgStack Foundation (Linux Foundation)
-  and OpenAgri ecosystem. Activate whenever the user asks about farming, agriculture, crop planning,
-  irrigation, soil health, pest management, weather for crops, field boundaries, farm operations,
-  supply chain traceability, carbon credits, or improving their farm project. Use this skill for
-  natural farming, organic agriculture, smallholder farm advice, agroecology, and any question
-  about deploying AgStack open-source tools (asset-registry, OpenAgri weather/irrigation/pest/
-  calendar services, INATrace, Pancake, Palefire, TerraTrac, field-carbon-model). Always trigger
-  for farm planning, soil improvement cycles, monthly crop scheduling, harvest analysis, and
-  demonstration farm projects. Covers both practical farming advice AND the technical AgStack
-  toolkit a developer or farmer can deploy.
+  Digital agriculture advisor for the Rangpur Natural Farm, Keshod, Junagadh, Gujarat -- powered
+  by the AgStack Foundation (Linux Foundation) and OpenAgri ecosystem. Trigger for: farm planning,
+  crop scheduling, irrigation management, ETo calculation, soil improvement tracking, pest risk,
+  weather for crops, field GeoID registration, farm calendar logging, ZBNF input logging,
+  Jeevamrut application records, PGS-India certification documentation, organic produce
+  traceability, APMC Keshod market prices, selling produce, crop price Junagadh, demonstration
+  farm data, carbon tracking, Kharif planning, Rabi planning, Bajra, Cumin, Sesame, Cowpea,
+  Guar, Methi, supply chain traceability, INATrace, seasonal PDF report, soil carbon model,
+  borewell emergency cross-link, AgStack tools, OpenAgri, asset-registry, field boundary.
+  Calibrated for 3-Vigha smallholder natural farming in Saurashtra, Gujarat.
 ---
 
-# AgStack Farming: Open Digital Agriculture Advisor
+# AgStack Farming -- Open Digital Agriculture Advisor
 
-Built on the **AgStack Foundation** (Linux Foundation) open-source ecosystem: 41 repositories
+Built on the **AgStack Foundation** (Linux Foundation) open-source ecosystem -- 41 repositories
 covering field registration, weather, irrigation, pest management, farm calendars, supply chain
 traceability, carbon modelling, and AI-native farm analytics.
 
@@ -37,54 +37,54 @@ traceability, carbon modelling, and AI-native farm analytics.
 
 ---
 
-## THE AGSTACK ECOSYSTEM: 41 REPOS AT A GLANCE
+## THE AGSTACK ECOSYSTEM -- 41 REPOS AT A GLANCE
 
 ### Core Infrastructure
-- **asset-registry**: Register any field polygon → receive a unique 16-char GeoID. Foundation for all field-level data.
-- **user-registry**: Account management at `user-registry.agstack.org`
-- **OpenAgri-GateKeeper**: JWT-based auth proxy for all OpenAgri microservices
-- **OpenAgri-OCSM**: Common Semantic Model: linked-data (JSON-LD) schema ensuring all services speak the same language
+- **asset-registry** -- Register any field polygon → receive a unique 16-char GeoID. Foundation for all field-level data.
+- **user-registry** -- Account management at `user-registry.agstack.org`
+- **OpenAgri-GateKeeper** -- JWT-based auth proxy for all OpenAgri microservices
+- **OpenAgri-OCSM** -- Common Semantic Model: linked-data (JSON-LD) schema ensuring all services speak the same language
 
 ### Farm Management Services (OpenAgri)
-- **OpenAgri-WeatherService**: 5-day agricultural weather forecasts (temperature, humidity, wind, THI heat-stress index, rainfall probability)
-- **OpenAgri-IrrigationManagement**: ETo (Penman-Monteith, FAO-56), soil moisture analysis, irrigation scheduling
-- **OpenAgri-FarmCalendar**: Record farm operations (planting, spraying, harvesting), observations, parcel data, assets
-- **OpenAgri-PestAndDiseaseManagement**: Rule-based probabilistic pest/disease risk engine using weather + crop stage inputs
-- **OpenAgri-ReportingService**: Auto-generates PDF reports from any farm data module
-- **OpenAgri-UserDashboard**: Web UI exposing all OpenAgri services
-- **OpenAgri-Bootstrap-Deployment**: One-command Docker Compose setup of the entire stack
+- **OpenAgri-WeatherService** -- 5-day agricultural weather forecasts (temperature, humidity, wind, THI heat-stress index, rainfall probability)
+- **OpenAgri-IrrigationManagement** -- ETo (Penman-Monteith, FAO-56), soil moisture analysis, irrigation scheduling
+- **OpenAgri-FarmCalendar** -- Record farm operations (planting, spraying, harvesting), observations, parcel data, assets
+- **OpenAgri-PestAndDiseaseManagement** -- Rule-based probabilistic pest/disease risk engine using weather + crop stage inputs
+- **OpenAgri-ReportingService** -- Auto-generates PDF reports from any farm data module
+- **OpenAgri-UserDashboard** -- Web UI exposing all OpenAgri services
+- **OpenAgri-Bootstrap-Deployment** -- One-command Docker Compose setup of the entire stack
 
 ### Traceability
-- **inatrace** (+ frontend / backend / mobile / coffee-network): Blockchain-based farm-to-consumer supply chain traceability
-- **tracefoodchain**: Flutter app/webapp for food chain tracing
-- **TerraTrac-field-app**: Mobile app for EUDR compliance, captures plot boundaries and deforestation risk
-- **TerraTrac-validator-portal**: Validates EUDR geolocation data
+- **inatrace** (+ frontend / backend / mobile / coffee-network) -- Blockchain-based farm-to-consumer supply chain traceability
+- **tracefoodchain** -- Flutter app/webapp for food chain tracing
+- **TerraTrac-field-app** -- Mobile app for EUDR compliance, captures plot boundaries and deforestation risk
+- **TerraTrac-validator-portal** -- Validates EUDR geolocation data
 
 ### Intelligence & AI
-- **pancake**: AI-native unified core: RAG, natural language queries, spatio-temporal search, automatic embeddings
-- **palefire**: Integrate LLMs with agricultural knowledge graphs
-- **arias**: AI assistant for agriculture
-- **autogeobound**: Automatic geo-boundary detection from satellite imagery
-- **field-carbon-model**: Field-specific carbon model using NASA SMAP L4C satellite data
+- **pancake** -- AI-native unified core: RAG, natural language queries, spatio-temporal search, automatic embeddings
+- **palefire** -- Integrate LLMs with agricultural knowledge graphs
+- **arias** -- AI assistant for agriculture
+- **autogeobound** -- Automatic geo-boundary detection from satellite imagery
+- **field-carbon-model** -- Field-specific carbon model using NASA SMAP L4C satellite data
 
 ### Infrastructure Modules
-- **asset-registry-fe**: Frontend for asset registry
-- **OpenAgri-OCSM**: Semantic model / ontology for interoperability
-- **LF-europe**: EU subproject for AgStack
-- **governance**, **meetings**: Community governance docs
+- **asset-registry-fe** -- Frontend for asset registry
+- **OpenAgri-OCSM** -- Semantic model / ontology for interoperability
+- **LF-europe** -- EU subproject for AgStack
+- **governance**, **meetings** -- Community governance docs
 
 ---
 
 ## PRACTICAL FARMING WORKFLOWS
 
-### Workflow 1: Set Up a New Farm (Start Here)
+### Workflow 1 -- Set Up a New Farm (Start Here)
 1. Create account at `user-registry.agstack.org`
 2. Register field boundary at `asset-registry.agstack.org` → receive your GeoID
 3. Deploy OpenAgri stack (see `references/09-deployment.md`)
 4. Create your farm, parcels, and crops in Farm Calendar
 5. Link GeoID to parcels for all future data
 
-### Workflow 2: Monthly Crop Planning Cycle
+### Workflow 2 -- Monthly Crop Planning Cycle
 ```
 [Weather Forecast] → [ETo/Water Budget] → [Pest Risk Check] → [Farm Calendar Entry]
          ↓                    ↓                   ↓                    ↓
@@ -96,7 +96,7 @@ traceability, carbon modelling, and AI-native farm analytics.
 4. Log planned operations in Farm Calendar
 5. After harvest: run Reporting Service to generate field performance PDF
 
-### Workflow 3: Natural/Organic Farm Soil Improvement Cycle
+### Workflow 3 -- Natural/Organic Farm Soil Improvement Cycle
 ```
 Season 1 → Record baseline: soil type, organic matter, water retention
 Season 2 → Apply amendments → log in Farm Calendar → track ETo changes
@@ -104,7 +104,7 @@ Season 3 → Compare carbon model output → measure soil improvement
 ```
 Tools: Farm Calendar (logs all interventions), field-carbon-model (tracks carbon), Reporting Service (documents progress for demonstration)
 
-### Workflow 4: Supply Chain & Certification
+### Workflow 4 -- Supply Chain & Certification
 1. Register each harvest batch in INATrace
 2. Record inputs used (what, when, how much) in Farm Calendar
 3. Generate traceability QR code → attach to produce
@@ -113,7 +113,7 @@ Tools: Farm Calendar (logs all interventions), field-carbon-model (tracks carbon
 
 ---
 
-## KEY APIS: QUICK REFERENCE
+## KEY APIS -- QUICK REFERENCE
 
 ### Asset Registry API
 ```bash
@@ -189,12 +189,12 @@ POST /api/v1/pest/risk-assessment
   "rainfall_last_7days_mm": 15,
   "geo_id": "XXXXXXXXXXXXXXXX"
 }
-# Returns: risk score 0–1 per pest, recommended actions
+# Returns: risk score 0-1 per pest, recommended actions
 ```
 
 ---
 
-## DECISION GUIDE: WHICH TOOL FOR WHICH QUESTION
+## DECISION GUIDE -- WHICH TOOL FOR WHICH QUESTION
 
 | Farmer's Question | AgStack Tool | Action |
 |-------------------|--------------|--------|
@@ -207,33 +207,46 @@ POST /api/v1/pest/risk-assessment
 | "How do I register my field boundary?" | asset-registry | Draw polygon at asset-registry.agstack.org |
 | "What crop should I plant next?" | FarmCalendar + Weather | Review seasonal forecast + past performance data |
 | "How do I track my farm over 100 years?" | All modules + GeoID | GeoID is permanent; all data indexed to it |
+| "How do I sell my produce / APMC prices?" | APMC Market + PGS logging | `references/10-apmc-pgs.md` |
+| "How do I get PGS organic certification?" | Farm Calendar + PGS-India | `references/10-apmc-pgs.md` |
+| "Borewell failed, irrigation emergency?" | Cross-skill: water-irrigation-emergency | Immediate crop triage + sourcing protocol |
 
 ---
 
 ## FOR YOUR NATURAL FARMING PROJECT (KESHOD, GUJARAT)
 
-A small natural farm in Gujarat is an ideal candidate for the AgStack stack:
+Your 1.2-acre model farm in Keshod Taluka, Junagadh is ideal for the AgStack stack:
 
-**Phase 1: Register & Baseline (Week 1)**
-- Register your 3-vigha field at `asset-registry.agstack.org` (draw polygon, get GeoID)
-- Link GeoID to your farm location coordinates
-- Set up Farm Calendar with your 3 parcels, soil type (record baseline: loamy/clay mix typical of Saurashtra)
+**Phase 1 -- Register and Baseline (Week 1)**
+- Register your 3-Vigha field at `asset-registry.agstack.org` (draw polygon, get GeoID)
+- Link GeoID to Keshod location coordinates (~21.3 N, 70.25 E)
+- Set up Farm Calendar with your 3 parcels, soil type (record baseline: loamy/clay mix, Saurashtra)
+- Take baseline soil test and log results -- cross-reference with `soil-test-interpreter` skill
 
-**Phase 2: Seasonal Operations (Ongoing)**
-- Pull daily weather for your farm location from Weather Service API
-- Calculate daily ETo: critical for Gujarat summers (ETo often 7–9 mm/day May–June)
-- Log every intervention (green manure, mulching, composting) in Farm Calendar
-- Run weekly pest risk checks: groundnut leaf miner, whitefly, and stem borer are common in the Saurashtra region
+**Phase 2 -- Seasonal Operations (Ongoing)**
+- Pull daily weather for Keshod from Weather Service API
+- Calculate daily ETo -- critical for Gujarat summers (ETo often 7-9 mm/day May-June)
+- Log every intervention (Jeevamrut, Beejamrut, green manure, mulching, composting) in Farm Calendar
+- Run weekly pest risk checks: groundnut leaf miner, whitefly, and stem borer common in Junagadh district
+- Log all inputs in PGS-India format from Day 1 -- see `references/10-apmc-pgs.md`
+- Any irrigation emergency: trigger `water-irrigation-emergency` skill immediately
 
-**Phase 3: Demonstration & Documentation**
+**Phase 3 -- Demonstration and Documentation**
 - Use Reporting Service to auto-generate seasonal PDFs showing yield, water use, inputs
 - Use INATrace to generate traceability certificates for your chemical-free produce
 - Share GeoID with visitors so your demonstration farm data is verifiable and reproducible
+- Submit PGS peer group review documentation compiled from Farm Calendar logs
+
+**APMC Market Context (Keshod / Junagadh)**
+- Primary market: APMC Keshod for daily vegetables and pulses
+- Secondary market: APMC Junagadh for Cumin, Sesame, Groundnut (higher volume, better price discovery)
+- Seasonal price peaks: Cumin (Feb-March Rabi harvest), Sesame (Oct-Nov post-Kharif)
+- For crop price reference, mandi rate sources, and selling workflow: `references/10-apmc-pgs.md`
 
 **Typical Junagadh crop calendar for reference:**
-- Kharif (Jun–Oct): Groundnut, Bajra, Cotton, Sesame
-- Rabi (Nov–Mar): Cumin, Wheat, Chickpea, Isabgol
-- Summer (Mar–May): Vegetables, Watermelon, Fodder
+- Kharif (Jun-Oct): Groundnut, Bajra, Cotton, Sesame, Cowpea, Cluster Bean
+- Rabi (Nov-Mar): Cumin, Methi, Coriander, Chickpea, Isabgol
+- Summer (Mar-May): Vegetables, Watermelon, Fodder
 
 ---
 
@@ -251,19 +264,31 @@ A small natural farm in Gujarat is an ideal candidate for the AgStack stack:
 
 ---
 
+## CROSS-SKILL LINKS
+
+| When you need | Go to skill |
+|---|---|
+| Interpret a soil test lab report, get organic amendment prescription | `soil-test-interpreter` |
+| ZBNF preparations: Jeevamrut, Beejamrut, Panchgavya, lunar calendar timing | `vedic-farming` |
+| Borewell failed, motor stopped, power cut, crop triage, emergency water | `water-irrigation-emergency` |
+| Log a farm observation, activity, irrigation event, pest sighting | `farm-journal` |
+
+---
+
 ## REFERENCE FILES
 
 Read these when deeper detail is needed on a specific module:
 
-- `references/01-field-registry.md`: Asset Registry setup, GeoID API, TerraTrac mobile
-- `references/02-weather-service.md`: Weather API, agricultural indicators, JSON-LD format
-- `references/03-irrigation.md`: ETo calculation (Penman-Monteith), soil moisture, irrigation scheduling
-- `references/04-farm-calendar.md`: Recording operations, observations, assets, REST API
-- `references/05-pest-disease.md`: Risk rules, common pests by crop, notification setup
-- `references/06-supply-chain.md`: INATrace blockchain, EUDR compliance, QR traceability
-- `references/07-carbon-soil.md`: field-carbon-model, SMAP L4C, soil health metrics
-- `references/08-ai-platform.md`: Pancake AI core, Palefire knowledge graphs, natural language queries
-- `references/09-deployment.md`: Docker Compose full stack setup, GateKeeper auth, OCSM
+- `references/01-field-registry.md` -- Asset Registry setup, GeoID API, TerraTrac mobile
+- `references/02-weather-service.md` -- Weather API, agricultural indicators, JSON-LD format
+- `references/03-irrigation.md` -- ETo calculation (Penman-Monteith), soil moisture, irrigation scheduling
+- `references/04-farm-calendar.md` -- Recording operations, observations, assets, REST API
+- `references/05-pest-disease.md` -- Risk rules, common pests by crop, notification setup
+- `references/06-supply-chain.md` -- INATrace blockchain, EUDR compliance, QR traceability
+- `references/07-carbon-soil.md` -- field-carbon-model, SMAP L4C, soil health metrics
+- `references/08-ai-platform.md` -- Pancake AI core, Palefire knowledge graphs, natural language queries
+- `references/09-deployment.md` -- Docker Compose full stack setup, GateKeeper auth, OCSM
+- `references/10-apmc-pgs.md` -- APMC Keshod/Junagadh market context, crop price reference, PGS-India certification logging
 
 ---
 
@@ -271,4 +296,4 @@ Read these when deeper detail is needed on a specific module:
 
 All code: **https://github.com/orgs/agstack/repositories**
 Licenses: Apache 2.0 or EUPL 1.2 (open source, free to use and deploy)
-Governance: Linux Foundation: vendor-neutral, community-driven
+Governance: Linux Foundation -- vendor-neutral, community-driven
