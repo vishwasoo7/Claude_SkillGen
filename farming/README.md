@@ -124,3 +124,34 @@ Reference file 02 covers the peer inspection protocol with a full fillable inspe
 
 Cross-linked to: agstack-farming (Farm Calendar log formats), soil-test-interpreter, vedic-farming, farm-journal.
 
+---
+
+### seasonal-crop-rotation-planner
+
+**File:** [seasonal-crop-rotation-planner/SKILL.md](./seasonal-crop-rotation-planner/SKILL.md)
+**Lines:** 156 (SKILL.md) + 2 reference files (596 lines)
+**Source:** Custom-built for VP Farm Project
+
+Five-year crop rotation and succession planner for the Rangpur Natural Farm.
+Integrates soil recovery logic into every planting decision from Kharif 2026 through Rabi 2030-31.
+
+SKILL.md provides three entry points (next season planning, crop profile lookup, intercropping check),
+five core rotation principles (no bare soil, legume every season, deep root before shallow, high-demand
+after soil-building, income every season), three decision scenarios (planning ahead, failed Kharif recovery,
+soil-test-driven rotation), and a year-by-year arc from bioremediation to demonstration farm maturity.
+
+Reference file 01 is a season-by-season rotation table for all five years: Year 1 starts with Dhaincha
+pre-crop on all parcels then Bajra, Cowpea, Sesame Kharif with income estimates Rs 31,550-70,000; Cumin
+introduced at 0.5 Vigha in Rabi 2026-27; Year 2 first Groundnut trial and full-Vigha Cumin; Year 3
+two-parcel Cumin with OC guard condition; Year 4 vegetables trial and Rs 2-3.5L income projection; Year 5
+stable self-reinforcing rotation. Also covers between-season gap crops and five failure adaptation scenarios.
+
+Reference file 02 has full profiles for 10 crops (Bajra, Sesame, Cowpea, Cluster Bean, Groundnut, Cumin,
+Methi, Coriander, Chickpea, Isabgol) each with sowing window, ZBNF yield, soil impact, rotation role, APMC
+notes, and Keshod-specific guidance. Also includes Dhaincha and Mustard cover crop profiles, seven proven
+intercropping combinations for Saurashtra climate, and a Kharif-to-Rabi succession windows table.
+
+Cross-linked to: agstack-farming (prices, Farm Calendar), water-irrigation-emergency (drought tolerance),
+soil-test-interpreter (amendment prescriptions, cover crop protocol), vedic-farming (ZBNF inputs, lunar
+calendar), farm-journal.
+
