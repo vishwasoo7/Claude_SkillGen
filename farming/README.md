@@ -155,3 +155,42 @@ Cross-linked to: agstack-farming (prices, Farm Calendar), water-irrigation-emerg
 soil-test-interpreter (amendment prescriptions, cover crop protocol), vedic-farming (ZBNF inputs, lunar
 calendar), farm-journal.
 
+---
+
+### gujarat-govt-schemes
+
+**File:** [gujarat-govt-schemes/SKILL.md](./gujarat-govt-schemes/SKILL.md)
+**Lines:** 148 (SKILL.md) + 2 reference files (695 lines)
+**Source:** Custom-built for VP Farm Project
+
+Gujarat government schemes navigator for the Rangpur Natural Farm. Covers 7 key
+schemes with a live verification layer -- every invocation runs targeted web searches
+to confirm current benefit amounts, eligibility, and application windows before
+presenting any information. Flags lapsed schemes and surfaces newly announced ones.
+
+SKILL.md contains the Live Verification Protocol (4-step search process, trusted
+source hierarchy from ikhedut.gujarat.gov.in to pib.gov.in, lapsed scheme detection
+rule), a Quick Scheme Lookup Table, a Priority Sequence (Immediate / Before Kharif /
+Post-PGS Certificate / Year 3+), and notes on what requires a PGS certificate and
+what requires a farmer group.
+
+Reference file 01 has full profiles for all 7 schemes: PM-KUSUM Component B (60-90%
+solar pump subsidy -- highest priority for borewell backup), Soil Health Card (free
+12-parameter test), PKVY (Rs 50,000/ha over 3 years, 20-farmer cluster path from
+PGS peer group), Mukhyamantri Prakrutik Kheti Yojana (ZBNF state support with
+variable-budget caveat), ATMA (demonstration farm recognition and scheme access
+pathway), Kisan Credit Card (Rs 3 lakh at 4% effective rate), and NHM/MIDH (55%
+drip irrigation subsidy, Year 3+ timing). Each profile has a VERIFY LIVE search
+query, Change Indicator signals, document checklist, and farm-specific rationale.
+Section 8 covers how to identify newly announced schemes via Union Budget, State
+Budget, quarterly i-Khedut scans, and seasonal circulars.
+
+Reference file 02 is the i-Khedut portal guide: 8-step application process from
+registration to disbursement, master documents checklist, quarterly new-scheme
+discovery method, application status tracking, 8 common rejection reasons with
+prevention, offline fallback via CSC and Taluka Agriculture Office, and key
+contacts for 8 offices in Junagadh district.
+
+Cross-linked to: pgs-india-roadmap, water-irrigation-emergency, soil-test-interpreter,
+vedic-farming, farm-journal, agstack-farming.
+
