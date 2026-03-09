@@ -1,8 +1,8 @@
 # Claude SkillGen
 
-> **30 production-ready Claude AI skills** — multi-agent orchestration, prompt engineering, RAG systems, Vedic natural farming (ZBNF), and startup strategy. Drop any `SKILL.md` into Claude to unlock domain-expert behavior instantly.
+> **34 production-ready Claude AI skills** — multi-agent orchestration, prompt engineering, RAG systems, Vedic natural farming (ZBNF), government scheme navigation, and startup strategy. Drop any `SKILL.md` into Claude to unlock domain-expert behavior instantly.
 
-[![Skills](https://img.shields.io/badge/skills-30-blue)](https://github.com/vishwasoo7/Claude_SkillGen)
+[![Skills](https://img.shields.io/badge/skills-34-blue)](https://github.com/vishwasoo7/Claude_SkillGen)
 [![Categories](https://img.shields.io/badge/categories-5-green)](https://github.com/vishwasoo7/Claude_SkillGen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -59,12 +59,16 @@ Skills for natural and organic farming operations. Calibrated for **Indian soil 
 
 | Skill | What It Does |
 |-------|-------------|
-| [`agstack-farming`](./farming/agstack-farming/) | AgStack Foundation digital agriculture advisor — ETo calculations, pest risk scoring, Gujarat crop calendars, INATrace traceability |
+| [`agstack-farming`](./farming/agstack-farming/) | AgStack Foundation digital agriculture advisor — ETo calculations, pest risk scoring, Gujarat crop calendars, APMC market intelligence, INATrace traceability, PGS-India certification logging |
 | [`vedic-farming`](./farming/vedic-farming/) | Full Subhash Palekar ZBNF system — Jeevamrut, Beejamrut, Panchgavya, Agniastra, Dashaparni Ark, lunar planting calendar, chemical land detox protocol, crop-specific guides for groundnut, cumin, sesame, bajra, vegetables |
-| [`soil-test-interpreter`](./farming/soil-test-interpreter/) | Reads Indian soil lab reports (GSFC, KVK formats) and generates organic amendment prescriptions per Vigha — pH correction, NPK, micronutrients |
+| [`soil-test-interpreter`](./farming/soil-test-interpreter/) | Reads Indian soil lab reports (GSFC, KVK formats) and generates organic amendment prescriptions per Vigha — pH correction, NPK, micronutrients, chemical detox retesting schedule |
 | [`farm-journal`](./farming/farm-journal/) | Structured farm observation and activity logging — 7 entry types, soil recovery milestones, season-comparison review |
+| [`water-irrigation-emergency`](./farming/water-irrigation-emergency/) | Borewell / motor / power failure emergency protocol — immediate action checklist, crop triage, water rationing, emergency sources, long-term solar pump upgrade path |
+| [`pgs-india-roadmap`](./farming/pgs-india-roadmap/) | Step-by-step PGS-India certification roadmap from Day 1 (April 2026) to first Scope Certificate (March 2027) — peer group formation, KVK registration, NCOF portal, fillable inspection and declaration templates |
+| [`seasonal-crop-rotation-planner`](./farming/seasonal-crop-rotation-planner/) | 5-year crop rotation plan for a chemical-transition farm — season-by-season tables, 10 crop profiles, intercropping combinations, Kharif-to-Rabi succession windows, soil recovery stage logic |
+| [`gujarat-govt-schemes`](./farming/gujarat-govt-schemes/) | Gujarat government schemes navigator with live web-search verification — PM-KUSUM solar pump, PKVY organic cluster, Kisan Credit Card, Soil Health Card, ATMA, NHM/MIDH drip irrigation, i-Khedut portal guide |
 
-**Keywords:** ZBNF, Subhash Palekar natural farming, Jeevamrut preparation, Indian soil test interpretation, organic farming Gujarat, AgStack open source, ETo calculation, PGS-India certification
+**Keywords:** ZBNF, Subhash Palekar natural farming, Jeevamrut preparation, Indian soil test interpretation, organic farming Gujarat, AgStack open source, ETo calculation, PGS-India certification, crop rotation Keshod, government schemes farmer India, PM-KUSUM solar pump subsidy
 
 ---
 
@@ -142,12 +146,12 @@ Skills for **startup strategy, financial planning, competitive research, and inv
 
 | Category | Skills |
 |----------|--------|
-| farming | 4 |
+| farming | 8 |
 | ai-agents | 7 |
 | skill-management | 5 |
 | engineering | 4 |
 | startup-business | 10 |
-| **Total** | **30** |
+| **Total** | **34** |
 
 ---
 

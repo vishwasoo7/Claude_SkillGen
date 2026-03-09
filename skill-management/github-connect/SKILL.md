@@ -214,7 +214,9 @@ Always report the following after every successful push:
 ## Category Map (for push-skill and sync-all)
 
 ```
-farming:          agstack-farming, vedic-farming, soil-test-interpreter
+farming:          agstack-farming, vedic-farming, soil-test-interpreter,
+                  farm-journal, water-irrigation-emergency, pgs-india-roadmap,
+                  seasonal-crop-rotation-planner, gujarat-govt-schemes
 ai-agents:        brainstorming, dispatching-parallel-agents, parallel-agents,
                   memory-systems, loki-mode, using-superpowers, skill-router
 skill-management: skill-developer, verification-before-completion, github-connect
@@ -251,22 +253,13 @@ These rules are non-negotiable and apply to every session:
 2. Never commit a file that contains the token string.
 3. Never force push (`git push --force`).
 4. Always use `https://TOKEN@github.com/...` format, never store in `.git/config`.
-5. Token persistence: the token does not expire between sessions unless you set an
-   expiration date on GitHub or manually revoke it. The same token can be reused
-   across sessions without regenerating.
+5. After every session, remind the user:
 
-**Token storage option (avoids pasting in chat each session):**
-```bash
-# Store once at the start of a session - never committed, lives only in /tmp
-echo "ghp_yourtoken" > /tmp/.ghtoken
-TOKEN=$(cat /tmp/.ghtoken)
 ```
-
-**Regenerate your token only when:**
-- It was pasted into a chat interface visible to others
-- It was accidentally committed to a repository
-- It was shared on a screen, in a screenshot, or in a public channel
-- You suspect unauthorized use (check github.com/settings/security-log)
+Security reminder: if this token was shared in a chat interface, regenerate it at
+github.com/settings/tokens before your next session. Tokens shared in chat are
+visible in conversation history.
+```
 
 ---
 
